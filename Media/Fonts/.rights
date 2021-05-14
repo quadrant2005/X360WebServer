@@ -1,0 +1,41 @@
+<!-- Type 'XBRIGHTS.EXE <filename>' to see the rights for a specific file -->
+
+<Rights>
+    <Right Name="Sample Code" English="Unless otherwise set forth in your Xbox 360 Development Kit License, that\nagreement allows you to reproduce, modify, and make derivative works of the\nSample Code, only for incorporation into one or more Xbox 360 Software Titles.\n" Japanese=""/>
+    <Right Name="Source Code Version of Redistributable Code" English="Unless otherwise set forth in your Xbox 360 Development Kit License, that\nagreement allows you to use the Source Code Version of the Redistributable\nCode in source code form internally only, and only to create and maintain\none or more Xbox 360 Software Titles.\n" Japanese=""/>
+    <Right Name="Object Code Version of Redistributable Code" English="Unless otherwise set forth in your Xbox 360 Development Kit License, that\nagreement allows you to reproduce and incorporate the Object Code Version\nof Redistributable Code in object code form only in and as an inseparable\npart of the Xbox 360 Software Titles.\n" Japanese=""/>
+    <Right Name="Source Code Version of Tools" English="Unless otherwise set forth in your Xbox 360 Development Kit License, that\nagreement allows you to reproduce, modify, and make derivative works of the\nSource Code Version of Tools, but only for internal use, and only to create\nand maintain one or more Xbox 360 Software Titles.\n" Japanese=""/>
+    <Right Name="Object Code Version of Tools" English="Unless otherwise set forth in your Xbox 360 Development Kit License, that\nagreement allows you to use the Object Code Version of Tools internally\nonly for developing and testing Xbox 360 Software Titles.\n" Japanese=""/>
+    <Right Name="Third Party Code" English="Third Party Code may only be used in accordance with the license terms set\nforth in a third party license agreement that applies to such code, or in\naccordance with supplemental license terms provided by Microsoft that apply\nto such code.\n" Japanese=""/>
+    <File Name=".rights" Rights="Object Code Version of Tools"/>
+    <File Name="Arial_12.abc" Rights="Sample Code"/>
+    <File Name="Arial_12.tga" Rights="Sample Code"/>
+    <File Name="Arial_12.rdf" Rights="Sample Code"/>
+    <File Name="Arial_16.abc" Rights="Sample Code"/>
+    <File Name="Arial_16.tga" Rights="Sample Code"/>
+    <File Name="Arial_16.rdf" Rights="Sample Code"/>
+    <File Name="Arial_16_Speech.abc" Rights="Sample Code"/>
+    <File Name="Arial_16_Speech.tga" Rights="Sample Code"/>
+    <File Name="Arial_16_Speech.rdf" Rights="Sample Code"/>
+    <File Name="Arial_20.abc" Rights="Sample Code"/>
+    <File Name="Arial_20.tga" Rights="Sample Code"/>
+    <File Name="Arial_20.rdf" Rights="Sample Code"/>
+    <File Name="Arial_Unicode_MS_16.abc" Rights="Sample Code"/>
+    <File Name="Arial_Unicode_MS_16.tga" Rights="Sample Code"/>
+    <File Name="Arial_Unicode_MS_16.rdf" Rights="Sample Code"/>
+    <File Name="Courier_New_11.abc" Rights="Sample Code"/>
+    <File Name="Courier_New_11.tga" Rights="Sample Code"/>
+    <File Name="Courier_New_11.rdf" Rights="Sample Code"/>
+    <File Name="Fixedsys_12.abc" Rights="Sample Code"/>
+    <File Name="Fixedsys_12.tga" Rights="Sample Code"/>
+    <File Name="Fixedsys_12.rdf" Rights="Sample Code"/>
+    <File Name="OnlineIcons.abc" Rights="Sample Code"/>
+    <File Name="OnlineIcons.tga" Rights="Sample Code"/>
+    <File Name="OnlineIcons.rdf" Rights="Sample Code"/>
+    <File Name="SegoeUI_24.abc" Rights="Sample Code"/>
+    <File Name="SegoeUI_24.tga" Rights="Sample Code"/>
+    <File Name="SegoeUI_24.rdf" Rights="Sample Code"/>
+    <File Name="SegoeUI_16_Outline.abc" Rights="Sample Code"/>
+    <File Name="SegoeUI_16_Outline.tga" Rights="Sample Code"/>
+    <File Name="SegoeUI_16_Outline.rdf" Rights="Sample Code"/>
+</Rights>

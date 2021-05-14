@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<RDF Version="XPR2">
+
+<Texture 
+	Name   = "GamepadTexture"
+	Source = "Gamepad.tga"
+	Format = "D3DFMT_LIN_A8R8G8B8"
+	Width  = "768"
+	Height = "576"
+	Levels = "1"
+/>
+
+<Texture
+	Name   = "HelpCalloutTexture"
+	Source = "HelpCallout.bmp"
+	Format = "D3DFMT_LIN_A8R8G8B8"
+	Levels = "1"
+/>
+
+</RDF>
