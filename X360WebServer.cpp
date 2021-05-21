@@ -165,11 +165,21 @@ void Socket_Bypass()
 
 void print_client_addr(struct sockaddr_in addr)
 {
-	printf("%d.%d.%d.%d",
+/*
+	printf("Client: %d.%d.%d.%d\n",
 		   addr.sin_addr.s_addr & 0xff,
 		   (addr.sin_addr.s_addr & 0xff00) >> 8,
 		   (addr.sin_addr.s_addr & 0xff0000) >> 16,
 		   (addr.sin_addr.s_addr & 0xff000000) >> 24);
+*/
+//[QBS]21-05-2021 Print Client IP to console
+			g_console.Format( "Client: %d.%d.%d.%d\n",
+			(addr.sin_addr.s_addr & 0xff000000) >> 24,
+			(addr.sin_addr.s_addr & 0xff0000) >> 16,
+			(addr.sin_addr.s_addr & 0xff00) >> 8,
+			addr.sin_addr.s_addr & 0xff);
+			
+			
 }
 //--------------------------------------------------------------------------------------
 // Main
@@ -189,7 +199,21 @@ VOID __cdecl main()
 
 	printf("\nHttp  WebServer on port: %d\nVersion 1.2 Beta\nBuild: %s Time: %s\n\nCoded By: Quadrant2005\n\n",HTTP_PORT,__DATE__,__TIME__);
 	g_console.Format( "\nHttp  WebServer on port: %d\nVersion 1.2 Beta\nBuild: %s Time: %s\n\nCoded By: Quadrant2005\n\n",HTTP_PORT,__DATE__,__TIME__);
+//[QBS]s ethernet check
+	DWORD dwStatus = XNetGetEthernetLinkStatus();
+	int m_bIsOnline = ( dwStatus & XNET_ETHERNET_LINK_ACTIVE ) != 0;
 
+	if( !m_bIsOnline )
+	{
+		printf("NO ETHERNET LINK ACTIVE\n");
+		g_console.Format( "NO ETHERNET LINK ACTIVE\n");
+	}
+	else
+	{
+		printf("ETHERNET LINK ACTIVE\n");
+		g_console.Format( "ETHERNET LINK ACTIVE\n");
+	}
+//[QBS]e
 	// Init windows sockets:
 	status = WSAStartup(MAKEWORD(1, 1), &Data);
 	if (status)
@@ -295,7 +319,7 @@ VOID __cdecl main()
 	// Now wait for incoming connections and handle them when needed:
 	printf("Html Server started! %s:%i\n",ip,HTTP_PORT);	
 	g_console.Format( "Html Server started! %s:%i\n",ip,HTTP_PORT);			
-	print_client_addr (ServerSockAddr);//[QBS]17-01-2021 server ip this time lets reuse the function maybe
+
 	printf("------------------------\n");
 	g_console.Format( "------------------------\n");
 
@@ -323,6 +347,7 @@ VOID __cdecl main()
 
 //		printf("cl->ip %s\n",inet_ntoa(ClientSockAddr.sin_addr));
 //		Log_Printf("cl->ip %s\n",inet_ntoa(ClientSockAddr.sin_addr));
+
 		print_client_addr (ClientSockAddr);//[QBS]17-01-2021
 
 		if (*ClientSocket == INVALID_SOCKET)

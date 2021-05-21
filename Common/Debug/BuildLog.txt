@@ -1,11 +1,11 @@
-﻿Build started 14/05/2021 16:59:41.
-     1>Project "C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\Http Socket Server\Common\AtgFramework2010.vcxproj" on node 2 (build target(s)).
+﻿Build started 21/05/2021 02:13:11.
+     1>Project "C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\X360WebServer\Common\AtgFramework2010.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\AtgFramework.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W4 /WX- /Od /Oi /D _DEBUG /D _XBOX /D XBOX /D _XBOX_CRT_DEPRECATE_INSECURE /D _MBCS /GF- /Gm- /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"stdafx.h" /Fp"C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\Http Socket Server\Common\Debug\AtgFramework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP stdafx.cpp /callcap /MP /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W4 /WX- /Od /Oi /D _DEBUG /D _XBOX /D XBOX /D _XBOX_CRT_DEPRECATE_INSECURE /D _MBCS /GF- /Gm- /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"stdafx.h" /Fp"C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\X360WebServer\Common\Debug\AtgFramework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP stdafx.cpp /callcap /MP /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W4 /WX- /Od /Oi /D _DEBUG /D _XBOX /D XBOX /D _XBOX_CRT_DEPRECATE_INSECURE /D _MBCS /GF- /Gm- /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"stdafx.h" /Fp"C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\Http Socket Server\Common\Debug\AtgFramework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP AtgXmlParser.cpp AtgXmlWriter.cpp AtgAnimation.cpp AtgCamera.cpp AtgFrame.cpp AtgLight.cpp AtgMaterials.cpp AtgModel.cpp AtgNamedTypedObject.cpp AtgResourceDatabase.cpp AtgScene.cpp AtgSceneMesh.cpp AtgSkeletalAnimation.cpp AtgBound.cpp AtgCollision.cpp AtgAvatarRenderer.cpp AtgDebugDraw.cpp AtgFont.cpp AtgMesh.cpp AtgPostProcess.cpp AtgSimpleShaders.cpp AtgEnumStrings.cpp AtgMediaLocator.cpp AtgResource.cpp AtgSceneFileParser.cpp AtgHttp.cpp AtgJson.cpp AtgRest.cpp AtgApp.cpp AtgConsole.cpp AtgDevice.cpp AtgHelp.cpp AtgInput.cpp AtgAudio.cpp ATGDsp.cpp ATGSpectralDisplay.cpp AtgWavebank.cpp AtgUtil.cpp AtgXime.cpp AtgSessionManager.cpp AtgSignIn.cpp ATGNuiJointFilter.cpp AtgNuiCommon.cpp AtgNuiHandRefinement.cpp AtgNuiJointConverter.cpp AtgNuiMenu.cpp AtgNuiRelativeCoordinates.cpp AtgNuiVisualization.cpp /callcap /MP /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W4 /WX- /Od /Oi /D _DEBUG /D _XBOX /D XBOX /D _XBOX_CRT_DEPRECATE_INSECURE /D _MBCS /GF- /Gm- /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"stdafx.h" /Fp"C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\X360WebServer\Common\Debug\AtgFramework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP AtgXmlParser.cpp AtgXmlWriter.cpp AtgAnimation.cpp AtgCamera.cpp AtgFrame.cpp AtgLight.cpp AtgMaterials.cpp AtgModel.cpp AtgNamedTypedObject.cpp AtgResourceDatabase.cpp AtgScene.cpp AtgSceneMesh.cpp AtgSkeletalAnimation.cpp AtgBound.cpp AtgCollision.cpp AtgAvatarRenderer.cpp AtgDebugDraw.cpp AtgFont.cpp AtgMesh.cpp AtgPostProcess.cpp AtgSimpleShaders.cpp AtgEnumStrings.cpp AtgMediaLocator.cpp AtgResource.cpp AtgSceneFileParser.cpp AtgHttp.cpp AtgJson.cpp AtgRest.cpp AtgApp.cpp AtgConsole.cpp AtgDevice.cpp AtgHelp.cpp AtgInput.cpp AtgAudio.cpp ATGDsp.cpp ATGSpectralDisplay.cpp AtgWavebank.cpp AtgUtil.cpp AtgXime.cpp AtgSessionManager.cpp AtgSignIn.cpp ATGNuiJointFilter.cpp AtgNuiCommon.cpp AtgNuiHandRefinement.cpp AtgNuiJointConverter.cpp AtgNuiMenu.cpp AtgNuiRelativeCoordinates.cpp AtgNuiVisualization.cpp /callcap /MP /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
          AtgXmlParser.cpp
          AtgXmlWriter.cpp
          AtgAnimation.cpp
@@ -55,7 +55,7 @@
          AtgNuiRelativeCoordinates.cpp
          AtgNuiVisualization.cpp
        Lib:
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\Lib.exe /OUT:"C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\Http Socket Server\Common\Debug\AtgFramework.lib" /NOLOGO Debug\stdafx.obj
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\Lib.exe /OUT:"C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\X360WebServer\Common\Debug\AtgFramework.lib" /NOLOGO Debug\stdafx.obj
          Debug\AtgXmlParser.obj
          Debug\AtgXmlWriter.obj
          Debug\AtgAnimation.obj
@@ -104,12 +104,12 @@
          Debug\AtgNuiMenu.obj
          Debug\AtgNuiRelativeCoordinates.obj
          Debug\AtgNuiVisualization.obj
-         AtgFramework2010.vcxproj -> C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\Http Socket Server\Common\Debug\AtgFramework.lib
+         AtgFramework2010.vcxproj -> C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\X360WebServer\Common\Debug\AtgFramework.lib
        FinalizeBuildStatus:
          Deleting file "Debug\AtgFramework.unsuccessfulbuild".
          Touching "Debug\AtgFramework.lastbuildstate".
-     1>Done Building Project "C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\Http Socket Server\Common\AtgFramework2010.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\ures\Documents\Visual Studio 2010\Projects\Xbox360Samples\X360WebServer\Common\AtgFramework2010.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:47.65
+Time Elapsed 00:00:34.07
